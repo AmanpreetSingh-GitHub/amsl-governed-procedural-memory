@@ -1,0 +1,22 @@
+﻿scientific_data/
+.poc/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.enc
+secrets/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.log
+logs/
+results/
+AGENTS.md
+
+# Private experimental evidence
+/experiments/

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 900" width="1800" height="900">
+<defs><marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#447ed8"/></marker><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#8390a3"/></marker><marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#299268"/></marker><marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#ca7b22"/></marker></defs>
+<rect width="1800" height="900" fill="#ffffff"/>
+<text x="54" y="59" font-size="35" font-weight="750" fill="#142b4b" font-family="DejaVu Sans,Arial,sans-serif">AMSL  |  System Architecture</text>
+<text x="55" y="95" font-size="17" fill="#51627a" font-family="DejaVu Sans,Arial,sans-serif">Investigate  ·  Reflect  ·  Validate  ·  Learn  ·  Reuse</text>
+
+<rect x="38" y="127" width="1722" height="171" rx="20" fill="#f8fbff" stroke="#d9e5f7" stroke-width="1.2"/>
+<rect x="38" y="320" width="1722" height="305" rx="20" fill="#fcfdff" stroke="#dee4ed" stroke-width="1.2"/>
+<rect x="38" y="654" width="1722" height="210" rx="20" fill="#fdfbff" stroke="#e1d7f5" stroke-width="1.2"/>
+<text x="58" y="151" text-anchor="start" fill="#447ed8" font-size="13" font-weight="750" font-family="DejaVu Sans, Arial, sans-serif">EVIDENCE</text>
+<text x="58" y="342" text-anchor="start" fill="#7953c7" font-size="13" font-weight="750" font-family="DejaVu Sans, Arial, sans-serif">INVESTIGATION</text>
+<text x="58" y="677" text-anchor="start" fill="#ca7b22" font-size="13" font-weight="750" font-family="DejaVu Sans, Arial, sans-serif">GOVERNED LEARNING</text>
+<rect x="66" y="178" width="348" height="91" rx="13" fill="#eaf2ff" stroke="#447ed8" stroke-width="1.6"/>
+<text x="85" y="209" text-anchor="start" fill="#142b4b" font-size="20" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Approved evidence pack</text>
+<text x="85" y="239" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Manifest · receipt · case evidence</text>
+<rect x="480" y="178" width="325" height="91" rx="13" fill="#eaf2ff" stroke="#447ed8" stroke-width="1.6"/>
+<text x="500" y="209" text-anchor="start" fill="#142b4b" font-size="20" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Verify &amp; ingest</text>
+<text x="500" y="239" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Approved, hashed release</text>
+<rect x="869" y="178" width="365" height="91" rx="13" fill="#eaf2ff" stroke="#447ed8" stroke-width="1.6"/>
+<text x="888" y="209" text-anchor="start" fill="#142b4b" font-size="20" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Scientific evidence</text>
+<text x="888" y="239" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">PostgreSQL · approved release</text>
+<rect x="1296" y="178" width="425" height="91" rx="13" fill="#f5f7fa" stroke="#8f9aad" stroke-width="1.6"/>
+<text x="1318" y="209" text-anchor="start" fill="#142b4b" font-size="20" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Investigation runner</text>
+<text x="1318" y="239" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Loads current approved evidence</text>
+<path d="M414 225 H478" fill="none" stroke="#447ed8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M805 225 H867" fill="none" stroke="#447ed8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<path d="M1234 225 H1294" fill="none" stroke="#447ed8" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-blue)"/>
+<rect x="200" y="392" width="418" height="128" rx="13" fill="#e6f4eb" stroke="#299268" stroke-width="1.6"/>
+<text x="221" y="423" text-anchor="start" fill="#142b4b" font-size="21" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Optional memory selection</text>
+<text x="221" y="450" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Retrieve eligible active procedures</text>
+<text x="221" y="474" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Review applicability &amp; conflicts</text>
+<text x="221" y="498" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Select 0–3 compatible procedures</text>
+<rect x="731" y="392" width="496" height="128" rx="13" fill="#f3edff" stroke="#7953c7" stroke-width="1.6"/>
+<text x="752" y="423" text-anchor="start" fill="#142b4b" font-size="21" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">LangGraph investigation</text>
+<text x="752" y="456" text-anchor="start" fill="#142b4b" font-size="17" font-weight="650" font-family="DejaVu Sans, Arial, sans-serif">Investigate</text>
+<text x="879" y="456" text-anchor="start" fill="#7953c7" font-size="23" font-weight="600" font-family="DejaVu Sans, Arial, sans-serif">→</text>
+<text x="911" y="456" text-anchor="start" fill="#142b4b" font-size="17" font-weight="650" font-family="DejaVu Sans, Arial, sans-serif">Reflect</text>
+<text x="1001" y="456" text-anchor="start" fill="#7953c7" font-size="23" font-weight="600" font-family="DejaVu Sans, Arial, sans-serif">→</text>
+<text x="1034" y="456" text-anchor="start" fill="#142b4b" font-size="17" font-weight="650" font-family="DejaVu Sans, Arial, sans-serif">Validate</text>
+<text x="752" y="494" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Scientific evidence + selected guidance</text>
+<rect x="1338" y="392" width="363" height="128" rx="13" fill="#f6f7fb" stroke="#8e9caf" stroke-width="1.6"/>
+<text x="1359" y="423" text-anchor="start" fill="#142b4b" font-size="21" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Persist episode</text>
+<text x="1359" y="451" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Full run &amp; stage trace</text>
+<text x="1359" y="482" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">PostgreSQL (before embedding)</text>
+<path d="M1496 269 V341 H409 V390" fill="none" stroke="#299268" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-green)"/>
+<rect x="450" y="331" width="192" height="26" rx="13" fill="#fff" stroke="#299268" stroke-width="1.2"/>
+<text x="546.0" y="349" text-anchor="middle" fill="#299268" font-size="12" font-weight="600" font-family="DejaVu Sans, Arial, sans-serif">MEMORY ON / PREVIEW</text>
+<path d="M1592 269 V307 H980 V390" fill="none" stroke="#8390a3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1140" y="295" width="113" height="26" rx="13" fill="#fff" stroke="#8390a3" stroke-width="1.2"/>
+<text x="1196.5" y="313" text-anchor="middle" fill="#8390a3" font-size="12" font-weight="600" font-family="DejaVu Sans, Arial, sans-serif">MEMORY OFF</text>
+<path d="M618 455 H729" fill="none" stroke="#299268" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-green)"/>
+<text x="647" y="444" text-anchor="start" fill="#299268" font-size="11" font-weight="650" font-family="DejaVu Sans, Arial, sans-serif">ON run</text>
+<path d="M1227 455 H1336" fill="none" stroke="#8390a3" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="257" y="546" width="309" height="52" rx="11" fill="#ffffff" stroke="#299268" stroke-width="1.4" stroke-dasharray="5 4"/>
+<text x="274" y="569" text-anchor="start" fill="#142b4b" font-size="16" font-weight="650" font-family="DejaVu Sans, Arial, sans-serif">Preview: selection only</text>
+<text x="274" y="588" text-anchor="start" fill="#51627a" font-size="12" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">No investigation or episode write</text>
+<path d="M408 520 V544" fill="none" stroke="#299268" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-green)" stroke-dasharray="5 4"/>
+<rect x="1372" y="544" width="295" height="54" rx="10" fill="#ffffff" stroke="#8e9caf" stroke-width="1.5"/>
+<text x="1388" y="567" text-anchor="start" fill="#142b4b" font-size="15" font-weight="650" font-family="DejaVu Sans, Arial, sans-serif">Generate episode embedding</text>
+<text x="1388" y="587" text-anchor="start" fill="#51627a" font-size="12" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">After episode is stored</text>
+<path d="M1519 520 V542" fill="none" stroke="#8390a3" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1386" y="712" width="310" height="112" rx="13" fill="#fff0dc" stroke="#ca7b22" stroke-width="1.6"/>
+<text x="1406" y="742" text-anchor="start" fill="#142b4b" font-size="19" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Operator starts review</text>
+<text x="1406" y="770" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Assess saved episode</text>
+<text x="1406" y="793" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Recommend learning action</text>
+<rect x="1021" y="712" width="305" height="112" rx="13" fill="#f3edff" stroke="#7953c7" stroke-width="1.6"/>
+<text x="1041" y="742" text-anchor="start" fill="#142b4b" font-size="18" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Draft candidate / version</text>
+<text x="1041" y="769" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">NEW or REFINE only</text>
+<text x="1041" y="793" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Inactive until approved</text>
+<rect x="679" y="712" width="287" height="112" rx="13" fill="#fff0dc" stroke="#ca7b22" stroke-width="1.6"/>
+<text x="699" y="742" text-anchor="start" fill="#142b4b" font-size="19" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Human decisions</text>
+<text x="699" y="769" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Promote · rollback · retire</text>
+<text x="699" y="793" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">No automatic activation</text>
+<rect x="290" y="712" width="325" height="112" rx="13" fill="#e6f4eb" stroke="#299268" stroke-width="1.6"/>
+<text x="311" y="742" text-anchor="start" fill="#142b4b" font-size="20" font-weight="700" font-family="DejaVu Sans, Arial, sans-serif">Procedural memory</text>
+<text x="311" y="769" text-anchor="start" fill="#51627a" font-size="15" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Versioned, governed memory</text>
+<text x="311" y="793" text-anchor="start" fill="#51627a" font-size="14" font-weight="400" font-family="DejaVu Sans, Arial, sans-serif">Eligible for future retrieval</text>
+<path d="M1386 765 H1328" fill="none" stroke="#ca7b22" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M1021 765 H968" fill="none" stroke="#ca7b22" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M679 765 H617" fill="none" stroke="#ca7b22" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)"/>
+<path d="M1701 455 H1732 V639 H1540 V710" fill="none" stroke="#ca7b22" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-orange)" stroke-dasharray="6 6"/>
+<text x="1544" y="694" text-anchor="start" fill="#ca7b22" font-size="12" font-weight="600" font-family="DejaVu Sans, Arial, sans-serif">Operator-initiated</text>
+<path d="M290 756 H143 V457 H198" fill="none" stroke="#299268" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-green)"/>
+<text x="64" y="608" text-anchor="start" fill="#299268" font-size="13" font-weight="650" font-family="DejaVu Sans, Arial, sans-serif">Future reuse</text>
+<text x="54" y="888" text-anchor="start" fill="#51627a" font-size="14" font-weight="500" font-family="DejaVu Sans, Arial, sans-serif">Procedural memory guides investigation methods; scientific findings rely on the current case’s approved evidence.</text>
+</svg>
