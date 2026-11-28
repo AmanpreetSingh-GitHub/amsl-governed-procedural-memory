@@ -1,4 +1,4 @@
-# AMSL | Agent Memory and Self-Learning Lab
+﻿# AMSL | Agent Memory and Self-Learning Lab
 
 AMSL (Agent Memory and Self-Learning Lab) is an AI investigation system designed to **learn reusable investigation methods from its own experience** and apply them to future cases. Its learning is procedural: it captures *how to investigate*, while keeping scientific evidence and conclusions tied to the case being examined.
 
@@ -30,12 +30,12 @@ The public code and offline tests can be examined independently, but this reposi
 
 ![AMSL system architecture](docs/amsl_architecture.png)
 
-[System overview](docs/system_overview.md) · [Detailed investigation and learning process flow](docs/process_flow.md)
+[System overview](docs/system_overview.md) Â· [Detailed investigation and learning process flow](docs/process_flow.md)
 
 ### Investigation and learning flow
 
 1. **Evidence release:** `verify_evidence_release.py` checks a released evidence pack; `ingest_approved_evidence.py` ingests the approved sources and release metadata into PostgreSQL.
-2. **Investigation:** `run_investigation_to_db.py` loads approved case evidence from PostgreSQL and dispatches the Docker-based LangGraph worker. The graph executes **Investigate → Reflect → Validate**.
+2. **Investigation:** `run_investigation_to_db.py` loads approved case evidence from PostgreSQL and dispatches the Docker-based LangGraph worker. The graph executes **Investigate â†’ Reflect â†’ Validate**.
 3. **Optional memory reuse:** With `--use-multi-memory`, `procedural_retrieval.py` ranks active, provenance-qualified memory versions using pgvector. A separate LLM applicability review returns `APPLY`, `SKIP`, or `UNCERTAIN` and identifies potential conflicts. Deterministic checks select **zero to three** compatible procedures for the investigation. The default run is memory-OFF.
 4. **Persistence:** `episode_persistence.py` saves the complete run record and stage trace first, then attempts the episode embedding. `verify` checks the stored record hash; `replay` reads back the record without rerunning the model.
 5. **Learning governance:** Separately and **only when invoked by an operator**, `govern_procedural_lessons.py` assesses a saved, eligible episode and can obtain a `NEW`, `REFINE`, `REINFORCE`, `SUPERSEDE`, `INVALIDATE`, or `NO_CHANGE` recommendation. `draft-learning` creates inactive drafts **only for `NEW` or `REFINE`**. Promotion, rollback, reinforcement observations, and retirement remain operator-controlled.
@@ -108,10 +108,11 @@ A live run requires the infrastructure above, an approved evidence release compa
 
 AMSL was developed using an AI-assisted engineering approach, with OpenAI Codex and ChatGPT supporting implementation, debugging, code refinement and documentation.
 
-The technical vision, design decisions, experimental methodology, governance principles and interpretation of findings were human-directed. AI served as an engineering accelerator, while responsibility for technical decisions, validation and conclusions remained with the project owner.
+The technical vision, design decisions, experimental methodology, governance principles and interpretation of findings were human-directed. AI served as an engineering accelerator, while responsibility for technical decisions, validation and conclusions remained with the owner.
 
 This approach reflects a broader shift in software engineering, where AI can accelerate implementation while human judgment continues to guide innovation, experimentation and accountability.
 
 ## License and reuse
 
 No open-source license is included with this repository at present. Public availability of the source code does not itself grant permission to reuse or redistribute it; licensing and any required ownership or third-party permissions must be resolved separately.
+
